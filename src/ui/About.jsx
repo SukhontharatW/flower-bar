@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import Heading from "./Heading";
-import videoShop from "../img/video.mp4";
+import imgShop from "../img/flowershop.png";
 const StyledAbout = styled.div`
   background-color: var(--color-white);
 
@@ -27,14 +27,15 @@ const Info = styled.div`
   margin-top: 4rem;
   margin-bottom: 2rem;
 `;
-const ShopVideo = styled.div`
+
+const ShopImg = styled.div`
   max-width: 75rem;
   max-height: 100%;
   margin: 0 auto;
   position: relative;
   display: flex;
   flex-wrap: wrap;
-  & video {
+  & img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -69,10 +70,10 @@ function About() {
             location within Bangkok.
           </p>
         </Info>
-        <ShopVideo>
+        <ShopImg>
           <Overlay />
-          <video src={videoShop} autoPlay loop muted></video>
-        </ShopVideo>
+          <img src={imgShop}></img>
+        </ShopImg>
       </Container>
     </StyledAbout>
   );
