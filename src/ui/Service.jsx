@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import Heading from "./Heading";
-import ImgService1 from "../img/service-1.jpeg";
-import ImgService2 from "../img/service-2.jpeg";
+import ImgService1 from "../img/service-1.png";
+import ImgService2 from "../img/service-2.png";
 
 const StyledService = styled.div`
   background-color: var(--color-white);
@@ -122,7 +122,7 @@ function Service() {
       <Container>
         <Services id="service1">
           <ImgService>
-            <img src={ImgService1} alt="" />
+            <img loading="lazy" src={ImgService1} alt="" />
           </ImgService>
           <ServiceText>
             <Heading as="h2">Regular Delivery</Heading>
@@ -179,7 +179,7 @@ function Service() {
         </Services>
         <Services id="service2">
           <ImgService>
-            <img src={ImgService2} alt="" />
+            <img loading="lazy" src={ImgService2} alt="" />
           </ImgService>
           <ServiceText>
             <Heading as="h2">Made To Order</Heading>

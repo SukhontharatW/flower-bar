@@ -1,6 +1,6 @@
 // /* eslint-disable no-unused-vars */
 import styled from "styled-components";
-import ImgLogo from "../public/Logo-black-soft-pink.svg";
+import ImgLogo from "../public/Logo-black-soft-pink.png";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { useState } from "react";
 
@@ -18,7 +18,7 @@ const StyledNavBar = styled.div`
 const Container = styled.div`
   max-width: 150rem;
   margin: 0 auto;
-  padding: 0.6rem 1.2rem;
+  padding: 0.6rem 1.2rem 0.6rem 1.6rem;
   display: flex;
   justify-content: space-between;
   align-items: center;

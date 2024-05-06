@@ -72,7 +72,7 @@ function About() {
         </Info>
         <ShopImg>
           <Overlay />
-          <img src={imgShop}></img>
+          <img loading="lazy" src={imgShop} alt="shop"></img>
         </ShopImg>
       </Container>
     </StyledAbout>

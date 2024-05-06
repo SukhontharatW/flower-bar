@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import HeroImg from "../img/hero.jpeg";
+import HeroImg from "../img/hero.png";
 import Heading from "./Heading";
 const StyledHero = styled.div`
   background-image: linear-gradient(

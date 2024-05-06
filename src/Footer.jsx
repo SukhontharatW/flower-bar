@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import ImgLogo from "../public/Logo-black-soft-pink.svg";
+import ImgLogo from "../public/Logo-black-soft-pink.png";
 
 import { FaFacebookSquare, FaInstagramSquare, FaLine } from "react-icons/fa";
 

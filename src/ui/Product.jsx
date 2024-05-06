@@ -1,8 +1,8 @@
 import styled from "styled-components";
 import Heading from "./Heading";
-import BestSeller1 from "../img/best-seller-1.svg";
-import BestSeller2 from "../img/best-seller-2.svg";
-import BestSeller3 from "../img/best-seller-3.svg";
+import BestSeller1 from "../img/bouquet-1.png";
+import BestSeller2 from "../img/bouquet-2.png";
+import BestSeller3 from "../img/bouquet-3.png";
 
 const StyledProduct = styled.div`
   background-color: var(--color-white);
@@ -63,18 +63,18 @@ function Product() {
         <Heading as="h2">Best Sellers</Heading>
         <Items>
           <Item>
-            <img src={BestSeller1} alt="" />
+            <img loading="lazy" src={BestSeller1} alt="" />
             <p>Red Tulips</p>
             <p>2300฿</p>
           </Item>
           <Item>
-            <img src={BestSeller2} alt="" />
+            <img loading="lazy" src={BestSeller2} alt="" />
 
             <p>Pink Peonies</p>
             <p>1800฿</p>
           </Item>
           <Item>
-            <img src={BestSeller3} alt="" />
+            <img loading="lazy" src={BestSeller3} alt="" />
 
             <p>White Roses & Friends</p>
             <p>2000฿</p>

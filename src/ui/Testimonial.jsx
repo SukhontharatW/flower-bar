@@ -1,8 +1,8 @@
 import styled from "styled-components";
 import Heading from "./Heading";
-import Customer1 from "../img/customer-7.svg";
-import Customer2 from "../img/customer-6.svg";
-import Customer3 from "../img/customer-10.svg";
+import Customer1 from "../img/customer-7.png";
+import Customer2 from "../img/customer-6.png";
+import Customer3 from "../img/customer-10.png";
 import Cus from "../img/story-customers/customer-1.jpg";
 import Hannah from "../img/story-customers/hannah.jpg";
 import Sk from "../img/story-customers/sk.jpg";
@@ -143,9 +143,9 @@ function Testimonial() {
           </Story>
         </Stories>
         <Gallary>
-          <img src={Customer1} alt="" />
-          <img src={Customer2} alt="" />
-          <img src={Customer3} alt="" />
+          <img loading="lazy" src={Customer1} alt="" />
+          <img loading="lazy" src={Customer2} alt="" />
+          <img loading="lazy" src={Customer3} alt="" />
         </Gallary>
       </Container>
     </StyledTestimonial>
