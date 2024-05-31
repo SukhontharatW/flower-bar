@@ -2,3 +2,5 @@ FLower Bar is a flower shop website designed to showcase the flower bouquets, th
 
 BUILT WITH : React, Styled-Components, Figma, HTML, CSS, JavaScript
 
+DEMO: https://flower-bar.netlify.app/
+
